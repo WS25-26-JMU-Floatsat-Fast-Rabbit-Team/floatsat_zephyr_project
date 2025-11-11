@@ -20,7 +20,7 @@ west update && west packages pip --install
 ## Building an example app
 
 ```sh
-west build -b stm32f401_mini zephyr/samples/basic/blinky`
+west build -b stm32f401_mini application --pristine
 ```
 
 # Flashing
